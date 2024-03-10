@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+.cursor-hover :hover {
+  cursor: pointer;
+  color: blue;
+}
+.border-dotted {
+  padding: 0 5px;
+  line-height: 30px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  border: 0.5px dashed;
+}
+.footer {
+  color: white;
+}
+
+/* For Bootstrap Custom Tooltip Styles */
+.tooltip-custom {
+  background-color: #333;
+  color: white;
+}
+
+/* Custom Arrow Styles */
+.tooltip-custom .tooltip-arrow::before {
+  border-top-color: #333;
+}
+
+.icon-center {
+  margin-left: 390px;
+  color: gray;
+}
+
+.custom-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
+  margin-left: 15px;
+}
