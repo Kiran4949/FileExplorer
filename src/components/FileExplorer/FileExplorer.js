@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Folder from "./Folder.js";
-import NavBar from "./NavBar.js";
+import Folder from "../Folder/Folder";
+import NavBar from "../NavBar/NavBar";
 
 const FileExplorer = () => {
   const [rootFolder, setRootFolder] = useState({

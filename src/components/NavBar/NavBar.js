@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "./index.css";
-import { checkIfNameExists } from "./NavBarUtils";
-import DarkModeToggle from "./DarkModeToggle";
+import { checkIfNameExists } from "../NavBarUtils/NavBarUtils";
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 
 function NavBar({ rootFolder, toggleRootFolder }) {
   const [searchTerm, setSearchTerm] = useState("");

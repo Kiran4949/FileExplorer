@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./index.css";
-import { initializeTooltips } from "./InitializeTooltips";
+import { initializeTooltips } from "../InitializeTooltips/InitializeTooltips";
 
 const Folder = ({ folder, onUpdate, onDelete }) => {
   const [isFolderOpen, setIsFolderOpen] = useState(true);

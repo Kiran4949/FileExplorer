@@ -1,6 +1,5 @@
-import "./App.css";
-import FileExplorer from "./components/FileExplorer";
-import Footer from "./components/Footer";
+import FileExplorer from "./components/FileExplorer/FileExplorer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

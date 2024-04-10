@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { initializeTooltips } from "./InitializeTooltips";
+import { initializeTooltips } from "../InitializeTooltips/InitializeTooltips";
 
 const Footer = () => {
   useEffect(() => {
